@@ -126,14 +126,6 @@ Procesa múltiples archivos simultáneamente.
 3. Seleccionar algoritmo
 4. "Calcular Lote"
 
-**VISTA DE RESULTADOS:**
-┌─────────────────────────────────────────────┐
-│ Archivo        │ Tamaño  │ Hash         │   │
-├────────────────┼─────────┼──────────────┤   │
-│ documento.pdf  │ 2.4 MB  │ a1b2c3...    │   │
-│ imagen.jpg     │ 5.1 MB  │ d4e5f6...    │   │
-└────────────────┴─────────┴──────────────┘   │
-
 **EXPORTACIÓN DE RESULTADOS:**
 • TXT: Formato legible humano
 • CSV: Para Excel/Google Sheets
