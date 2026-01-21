@@ -323,7 +323,7 @@ Incluir en el reporte:
 ### ACTUALIZACIONES:
 • Versión actual: 3.0.0
 • Fecha lanzamiento: 12/12/2025
-• Próxima versión: 3.1 
+• Próxima versión: 3.1
 • Actualizaciones: Manuales desde sitio web
 
 ### CONTRIBUCIONES:
@@ -489,4 +489,3 @@ Uso, modificación y redistribución permitidos.
 
 ## Autor
 Desarrollado por **Dairo Smith**
-
