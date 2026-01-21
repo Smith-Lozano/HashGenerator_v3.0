@@ -1,3 +1,7 @@
+===========================
+Versión para Windows (.exe)
+===========================
+
 # **Hash Generator v3.0 - Manual del Usuario**
 ================================================================
 
@@ -396,11 +400,93 @@ Gracias por elegir **Hash Generator v3.0**.
 • Desarrollador principal: Smith Lozano
 • Librerías utilizadas: CustomTkinter, PyInstaller
 • Comunidad: Agradecimientos a usuarios por feedback
+-------------------------------------------------------------------------------------------------
 
-**VERSIONES ANTERIORES:**
-• v1.0 (2024): Versión inicial consola
-• v2.0 (2025): Interfaz gráfica básica
-• v3.0 (12/12/2025): Interfaz moderna, todas las funciones
-================================================================
-*Hash de verificación de este documento: Hash_Verificacion_HashGenerator_v3.0.txt*
-================================================================
+================================================================================================
+Versión para Gnu/Linux basados en Debian, Ubuntu y derivados, sistemas GNU/Linux Basados en APT.
+================================================================================================
+
+# Hash Generator (paquete `.deb`)
+**Hash Generator** es una aplicación gráfica para GNU/Linux que permite **generar y validar hashes criptográficos de archivos**, orientada a tareas de **verificación de integridad**, **seguridad básica** y **administración de sistemas**.
+
+Este documento describe **únicamente el uso del programa cuando se instala mediante paquete `.deb`**.
+
+## Compatibilidad
+* Sistemas basados en **Debian / Ubuntu**
+* Probado en:
+  * Ubuntu
+  * Debian
+  * Zorin
+  * Pop OS!
+  * Linux Mint
+  * Entre otros ...
+
+Arquitectura:
+* `all` (independiente de arquitectura, requiere Python instalado)
+## Instalación
+
+Desde la carpeta donde se encuentre el paquete:
+sudo apt install ./hash-generator_3.0.deb
+
+Durante la instalación:
+* El sistema resolverá dependencias automáticamente
+* El programa quedará integrado al sistema
+
+## Ejecución
+Una vez instalado, puedes ejecutar el programa de las siguientes formas:
+
+### Desde la terminal
+hash-generator
+
+### Desde el menú gráfico
+Busca **Hash Generator** en el menú de aplicaciones de tu entorno de escritorio.
+
+## Funcionalidades
+* Generación de hashes criptográficos de archivos
+* Validación de integridad mediante comparación de hashes
+* Selección de algoritmos desde la interfaz gráfica
+* Interfaz moderna basada en Tkinter/CustomTkinter
+* Funcionamiento completamente local
+
+## Algoritmos soportados
+* MD5
+* SHA1
+* SHA224
+* SHA256
+* SHA384
+* SHA512
+* BLAKE2
+* xxHash (rápido, no criptográfico)
+
+## Comportamiento del paquete
+* No modifica archivos del sistema fuera de su directorio
+* No instala servicios ni demonios
+* No se ejecuta en segundo plano
+* No requiere conexión a Internet
+* No recopila información del usuario
+
+## Desinstalación
+Para eliminar el programa del sistema:
+sudo apt remove hash-generator
+
+Para eliminar también archivos de configuración (si existieran):
+sudo apt purge hash-generator
+
+## Notas importantes
+* El paquete depende de Python instalado en el sistema
+* Cualquier mensaje de error durante la instalación **relacionado con DKMS o el kernel no está asociado a este paquete**
+* El programa no interactúa con módulos del kernel ni controladores
+
+## Soporte
+En caso de problemas:
+* Verifica que tu sistema tenga Python correctamente instalado
+* Ejecuta el programa desde la terminal para ver mensajes de error
+* Revisa que el sistema no tenga paquetes pendientes de configurar
+
+## Licencia
+Software libre.
+Uso, modificación y redistribución permitidos.
+
+## Autor
+Desarrollado por **Dairo Smith**
+
