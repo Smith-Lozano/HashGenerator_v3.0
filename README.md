@@ -488,4 +488,5 @@ Software libre.
 Uso, modificación y redistribución permitidos.
 
 ## Autor
-Desarrollado por **Dairo Smith**
+© 2026 Smith Lozano - Licencia MIT
+Versión 3.0.0 - Código fuente disponible
